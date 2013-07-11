@@ -7,102 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A4FAB43178F07CB009FECD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4FAB42178F07CB009FECD9 /* UIKit.framework */; };
-		4A4FAB45178F07CB009FECD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4FAB44178F07CB009FECD9 /* Foundation.framework */; };
-		4A4FAB47178F07CB009FECD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4FAB46178F07CB009FECD9 /* CoreGraphics.framework */; };
-		4A4FAB4D178F07CB009FECD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A4FAB4B178F07CB009FECD9 /* InfoPlist.strings */; };
-		4A4FAB4F178F07CB009FECD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4FAB4E178F07CB009FECD9 /* main.m */; };
-		4A4FAB53178F07CB009FECD9 /* ttAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4FAB52178F07CB009FECD9 /* ttAppDelegate.m */; };
-		4A4FAB55178F07CB009FECD9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4FAB54178F07CB009FECD9 /* Default.png */; };
-		4A4FAB57178F07CB009FECD9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4FAB56178F07CB009FECD9 /* Default@2x.png */; };
-		4A4FAB59178F07CB009FECD9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4FAB58178F07CB009FECD9 /* Default-568h@2x.png */; };
-		4A4FAB5C178F07CB009FECD9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4FAB5A178F07CB009FECD9 /* MainStoryboard.storyboard */; };
-		4A4FAB5F178F07CB009FECD9 /* ttViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4FAB5E178F07CB009FECD9 /* ttViewController.m */; };
+		4A055D45178F55F70082D910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A055D44178F55F70082D910 /* UIKit.framework */; };
+		4A055D47178F55F70082D910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A055D46178F55F70082D910 /* Foundation.framework */; };
+		4A055D49178F55F70082D910 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A055D48178F55F70082D910 /* CoreGraphics.framework */; };
+		4A055D4F178F55F70082D910 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A055D4D178F55F70082D910 /* InfoPlist.strings */; };
+		4A055D51178F55F70082D910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A055D50178F55F70082D910 /* main.m */; };
+		4A055D55178F55F70082D910 /* ttAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A055D54178F55F70082D910 /* ttAppDelegate.m */; };
+		4A055D57178F55F70082D910 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A055D56178F55F70082D910 /* Default.png */; };
+		4A055D59178F55F70082D910 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A055D58178F55F70082D910 /* Default@2x.png */; };
+		4A055D5B178F55F70082D910 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A055D5A178F55F70082D910 /* Default-568h@2x.png */; };
+		4A055D5E178F55F70082D910 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A055D5C178F55F70082D910 /* MainStoryboard.storyboard */; };
+		4A055D61178F55F70082D910 /* ttViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A055D60178F55F70082D910 /* ttViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A4FAB3F178F07CB009FECD9 /* TourTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A4FAB42178F07CB009FECD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4A4FAB44178F07CB009FECD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4A4FAB46178F07CB009FECD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4A4FAB4A178F07CB009FECD9 /* TourTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TourTracker-Info.plist"; sourceTree = "<group>"; };
-		4A4FAB4C178F07CB009FECD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4A4FAB4E178F07CB009FECD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A4FAB50178F07CB009FECD9 /* TourTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TourTracker-Prefix.pch"; sourceTree = "<group>"; };
-		4A4FAB51178F07CB009FECD9 /* ttAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttAppDelegate.h; sourceTree = "<group>"; };
-		4A4FAB52178F07CB009FECD9 /* ttAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttAppDelegate.m; sourceTree = "<group>"; };
-		4A4FAB54178F07CB009FECD9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4A4FAB56178F07CB009FECD9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4A4FAB58178F07CB009FECD9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4A4FAB5B178F07CB009FECD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4A4FAB5D178F07CB009FECD9 /* ttViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttViewController.h; sourceTree = "<group>"; };
-		4A4FAB5E178F07CB009FECD9 /* ttViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttViewController.m; sourceTree = "<group>"; };
+		4A055D41178F55F70082D910 /* TourTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A055D44178F55F70082D910 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A055D46178F55F70082D910 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A055D48178F55F70082D910 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A055D4C178F55F70082D910 /* TourTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TourTracker-Info.plist"; sourceTree = "<group>"; };
+		4A055D4E178F55F70082D910 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A055D50178F55F70082D910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A055D52178F55F70082D910 /* TourTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TourTracker-Prefix.pch"; sourceTree = "<group>"; };
+		4A055D53178F55F70082D910 /* ttAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttAppDelegate.h; sourceTree = "<group>"; };
+		4A055D54178F55F70082D910 /* ttAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttAppDelegate.m; sourceTree = "<group>"; };
+		4A055D56178F55F70082D910 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4A055D58178F55F70082D910 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4A055D5A178F55F70082D910 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A055D5D178F55F70082D910 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4A055D5F178F55F70082D910 /* ttViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttViewController.h; sourceTree = "<group>"; };
+		4A055D60178F55F70082D910 /* ttViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A4FAB3C178F07CB009FECD9 /* Frameworks */ = {
+		4A055D3E178F55F70082D910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4FAB43178F07CB009FECD9 /* UIKit.framework in Frameworks */,
-				4A4FAB45178F07CB009FECD9 /* Foundation.framework in Frameworks */,
-				4A4FAB47178F07CB009FECD9 /* CoreGraphics.framework in Frameworks */,
+				4A055D45178F55F70082D910 /* UIKit.framework in Frameworks */,
+				4A055D47178F55F70082D910 /* Foundation.framework in Frameworks */,
+				4A055D49178F55F70082D910 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A4FAB36178F07CB009FECD9 = {
+		4A055D38178F55F70082D910 = {
 			isa = PBXGroup;
 			children = (
-				4A4FAB48178F07CB009FECD9 /* TourTracker */,
-				4A4FAB41178F07CB009FECD9 /* Frameworks */,
-				4A4FAB40178F07CB009FECD9 /* Products */,
+				4A055D4A178F55F70082D910 /* TourTracker */,
+				4A055D43178F55F70082D910 /* Frameworks */,
+				4A055D42178F55F70082D910 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4A4FAB40178F07CB009FECD9 /* Products */ = {
+		4A055D42178F55F70082D910 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A4FAB3F178F07CB009FECD9 /* TourTracker.app */,
+				4A055D41178F55F70082D910 /* TourTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A4FAB41178F07CB009FECD9 /* Frameworks */ = {
+		4A055D43178F55F70082D910 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A4FAB42178F07CB009FECD9 /* UIKit.framework */,
-				4A4FAB44178F07CB009FECD9 /* Foundation.framework */,
-				4A4FAB46178F07CB009FECD9 /* CoreGraphics.framework */,
+				4A055D44178F55F70082D910 /* UIKit.framework */,
+				4A055D46178F55F70082D910 /* Foundation.framework */,
+				4A055D48178F55F70082D910 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A4FAB48178F07CB009FECD9 /* TourTracker */ = {
+		4A055D4A178F55F70082D910 /* TourTracker */ = {
 			isa = PBXGroup;
 			children = (
-				4A4FAB51178F07CB009FECD9 /* ttAppDelegate.h */,
-				4A4FAB52178F07CB009FECD9 /* ttAppDelegate.m */,
-				4A4FAB5A178F07CB009FECD9 /* MainStoryboard.storyboard */,
-				4A4FAB5D178F07CB009FECD9 /* ttViewController.h */,
-				4A4FAB5E178F07CB009FECD9 /* ttViewController.m */,
-				4A4FAB49178F07CB009FECD9 /* Supporting Files */,
+				4A055D53178F55F70082D910 /* ttAppDelegate.h */,
+				4A055D54178F55F70082D910 /* ttAppDelegate.m */,
+				4A055D5C178F55F70082D910 /* MainStoryboard.storyboard */,
+				4A055D5F178F55F70082D910 /* ttViewController.h */,
+				4A055D60178F55F70082D910 /* ttViewController.m */,
+				4A055D4B178F55F70082D910 /* Supporting Files */,
 			);
 			path = TourTracker;
 			sourceTree = "<group>";
 		};
-		4A4FAB49178F07CB009FECD9 /* Supporting Files */ = {
+		4A055D4B178F55F70082D910 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A4FAB4A178F07CB009FECD9 /* TourTracker-Info.plist */,
-				4A4FAB4B178F07CB009FECD9 /* InfoPlist.strings */,
-				4A4FAB4E178F07CB009FECD9 /* main.m */,
-				4A4FAB50178F07CB009FECD9 /* TourTracker-Prefix.pch */,
-				4A4FAB54178F07CB009FECD9 /* Default.png */,
-				4A4FAB56178F07CB009FECD9 /* Default@2x.png */,
-				4A4FAB58178F07CB009FECD9 /* Default-568h@2x.png */,
+				4A055D4C178F55F70082D910 /* TourTracker-Info.plist */,
+				4A055D4D178F55F70082D910 /* InfoPlist.strings */,
+				4A055D50178F55F70082D910 /* main.m */,
+				4A055D52178F55F70082D910 /* TourTracker-Prefix.pch */,
+				4A055D56178F55F70082D910 /* Default.png */,
+				4A055D58178F55F70082D910 /* Default@2x.png */,
+				4A055D5A178F55F70082D910 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,13 +110,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A4FAB3E178F07CB009FECD9 /* TourTracker */ = {
+		4A055D40178F55F70082D910 /* TourTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A4FAB62178F07CB009FECD9 /* Build configuration list for PBXNativeTarget "TourTracker" */;
+			buildConfigurationList = 4A055D64178F55F70082D910 /* Build configuration list for PBXNativeTarget "TourTracker" */;
 			buildPhases = (
-				4A4FAB3B178F07CB009FECD9 /* Sources */,
-				4A4FAB3C178F07CB009FECD9 /* Frameworks */,
-				4A4FAB3D178F07CB009FECD9 /* Resources */,
+				4A055D3D178F55F70082D910 /* Sources */,
+				4A055D3E178F55F70082D910 /* Frameworks */,
+				4A055D3F178F55F70082D910 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,77 +124,77 @@
 			);
 			name = TourTracker;
 			productName = TourTracker;
-			productReference = 4A4FAB3F178F07CB009FECD9 /* TourTracker.app */;
+			productReference = 4A055D41178F55F70082D910 /* TourTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4A4FAB37178F07CB009FECD9 /* Project object */ = {
+		4A055D39178F55F70082D910 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = tt;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Klaus Schleicher";
 			};
-			buildConfigurationList = 4A4FAB3A178F07CB009FECD9 /* Build configuration list for PBXProject "TourTracker" */;
+			buildConfigurationList = 4A055D3C178F55F70082D910 /* Build configuration list for PBXProject "TourTracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4A4FAB36178F07CB009FECD9;
-			productRefGroup = 4A4FAB40178F07CB009FECD9 /* Products */;
+			mainGroup = 4A055D38178F55F70082D910;
+			productRefGroup = 4A055D42178F55F70082D910 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A4FAB3E178F07CB009FECD9 /* TourTracker */,
+				4A055D40178F55F70082D910 /* TourTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4A4FAB3D178F07CB009FECD9 /* Resources */ = {
+		4A055D3F178F55F70082D910 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4FAB4D178F07CB009FECD9 /* InfoPlist.strings in Resources */,
-				4A4FAB55178F07CB009FECD9 /* Default.png in Resources */,
-				4A4FAB57178F07CB009FECD9 /* Default@2x.png in Resources */,
-				4A4FAB59178F07CB009FECD9 /* Default-568h@2x.png in Resources */,
-				4A4FAB5C178F07CB009FECD9 /* MainStoryboard.storyboard in Resources */,
+				4A055D4F178F55F70082D910 /* InfoPlist.strings in Resources */,
+				4A055D57178F55F70082D910 /* Default.png in Resources */,
+				4A055D59178F55F70082D910 /* Default@2x.png in Resources */,
+				4A055D5B178F55F70082D910 /* Default-568h@2x.png in Resources */,
+				4A055D5E178F55F70082D910 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A4FAB3B178F07CB009FECD9 /* Sources */ = {
+		4A055D3D178F55F70082D910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4FAB4F178F07CB009FECD9 /* main.m in Sources */,
-				4A4FAB53178F07CB009FECD9 /* ttAppDelegate.m in Sources */,
-				4A4FAB5F178F07CB009FECD9 /* ttViewController.m in Sources */,
+				4A055D51178F55F70082D910 /* main.m in Sources */,
+				4A055D55178F55F70082D910 /* ttAppDelegate.m in Sources */,
+				4A055D61178F55F70082D910 /* ttViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A4FAB4B178F07CB009FECD9 /* InfoPlist.strings */ = {
+		4A055D4D178F55F70082D910 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A4FAB4C178F07CB009FECD9 /* en */,
+				4A055D4E178F55F70082D910 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		4A4FAB5A178F07CB009FECD9 /* MainStoryboard.storyboard */ = {
+		4A055D5C178F55F70082D910 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A4FAB5B178F07CB009FECD9 /* en */,
+				4A055D5D178F55F70082D910 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4A4FAB60178F07CB009FECD9 /* Debug */ = {
+		4A055D62178F55F70082D910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		4A4FAB61178F07CB009FECD9 /* Release */ = {
+		4A055D63178F55F70082D910 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +258,7 @@
 			};
 			name = Release;
 		};
-		4A4FAB63178F07CB009FECD9 /* Debug */ = {
+		4A055D65178F55F70082D910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -269,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		4A4FAB64178F07CB009FECD9 /* Release */ = {
+		4A055D66178F55F70082D910 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -283,24 +283,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A4FAB3A178F07CB009FECD9 /* Build configuration list for PBXProject "TourTracker" */ = {
+		4A055D3C178F55F70082D910 /* Build configuration list for PBXProject "TourTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A4FAB60178F07CB009FECD9 /* Debug */,
-				4A4FAB61178F07CB009FECD9 /* Release */,
+				4A055D62178F55F70082D910 /* Debug */,
+				4A055D63178F55F70082D910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A4FAB62178F07CB009FECD9 /* Build configuration list for PBXNativeTarget "TourTracker" */ = {
+		4A055D64178F55F70082D910 /* Build configuration list for PBXNativeTarget "TourTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A4FAB63178F07CB009FECD9 /* Debug */,
-				4A4FAB64178F07CB009FECD9 /* Release */,
+				4A055D65178F55F70082D910 /* Debug */,
+				4A055D66178F55F70082D910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4A4FAB37178F07CB009FECD9 /* Project object */;
+	rootObject = 4A055D39178F55F70082D910 /* Project object */;
 }
