@@ -2,7 +2,7 @@
 //  ttAppDelegate.m
 //  TourTracker
 //
-//  Created by Klaus Schleicher on 11.07.13.
+//  Created by Klaus Schleicher on 11.07.13. Erster Versuch für eine eigene iOS App
 //  Copyright (c) 2013 Klaus Schleicher. All rights reserved.
 //
 
